@@ -1,0 +1,372 @@
+ 
+ body, html {
+	height: 100%;
+	font-family: 'Nunito', sans-serif;
+}
+
+.landing-banner {
+	
+	/* The image used */
+	background-image: url("../images/R3.png");	
+	/* Set a specific height */
+	height: 800px; 
+	/* Create the parallax scrolling effect */
+	/* background-attachment: fixed; */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+span.landing-banner-font {
+	/* font-family: 'Kumar One Outline', cursive; */
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	color: #0f9b0f;
+	/* font-size: 5rem; */
+	
+}
+span.landing-banner-jumbo {
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	color: #FFFF;
+	
+}
+div.center-content {
+	display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+div.center-content2 {
+	text-align: center;
+}
+
+.r-image {
+	width: 200px;
+}
+
+img.r-size {
+	width: 40%;
+}
+
+.section-wrap {
+	
+	width: 100%;
+	height: 100%;
+					/* Full height */
+					height: 100%; 
+		
+					/* Create the parallax scrolling effect */
+					background-attachment: fixed;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+}
+span.landing-banner-font {
+	font-size: 44px;
+  }
+
+  
+
+	div.content {
+		display: -webkit-flexbox;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		justify-content: center;
+		height: 500px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		/* background: red; */
+	}
+	.parallax {
+		    /* The image used */
+				background-image: url("../images/banner1.jpg");
+
+				/* Full height */
+				height: 100%; 
+		
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+    		/* Full height */
+		
+		width: 100%;
+
+}
+.parallax2 {
+	/* The image used */
+		background-image: url("../images/IMG_0083.jpg");
+
+		/* Full height */
+		height: 100%; 
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	/* Full height */
+
+width: 100%;
+
+}
+.parallax3 {
+	/* The image used */
+		background-image: url("../images/IMG_9833.jpg");
+
+		/* Full height */
+		height: 100%; 
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	/* Full height */
+
+width: 100%;
+
+}
+
+
+.banner-cover {
+	width: 100%;
+	/* height: 100%; */
+	background-color: #ffde00;
+	/* Full height */
+	/* height: 100%;  */	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner-cover2 {
+	width: 100%;
+	/* height: 100%; */
+	background-color: #ffde00;
+	/* Full height */
+	height: 100%; 	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-cover-about {
+	width: 100%;
+	/* height: 100%; */
+	/* Full height */
+	/* height: 100%; 	
+	/* Create the parallax scrolling effect */
+	/* background-attachment: fixed; */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer.footer-style {
+	background-color: #05004e;	
+	Height: auto;
+}
+.border-bottom {
+	width: 100%;
+	border-bottom: 3px solid #fff;
+  }
+div.under-footer {
+	width: 100%;
+	height: 25px;
+	
+}
+div.menu-item {
+	color: #fff;
+}
+div.menu-item.about{
+	color: #05004e;
+}
+.newsletter
+{
+		width: 100%;
+		max-width: 26.25rem; /* 420 */
+		height: 3.75rem; /* 60 */
+		/* font-size: 1.25rem; 20 */
+		position: absolute;
+		top: 30%;
+		/* left: 50%; */
+		/* margin: -1.875rem 0 0 -13.125rem; 30 210 */
+		font-family: 'Bitter', serif;
+}
+		.newsletter input
+		{
+				-webkit-transition: color .25s ease, background-color .25s ease, border-color .25s ease;
+				transition: color .25s ease, background-color .25s ease, border-color .25s ease;
+		}
+		.newsletter-email
+		{
+				width: 100%;
+				height: 100%;
+				text-overflow: ellipsis;
+				color: #ff0000;
+				background-color: white;
+				border: 2px solid transparent;
+				white-space: nowrap;
+				overflow: hidden;
+				padding: 0 5rem 0 1.25rem; /* 80 20 */
+		}
+				.newsletter-email::-webkit-input-placeholder	{ color: #ff0000 !important; }
+				.newsletter-email:-moz-placeholder				{ color: #ff0000 !important; }
+				.newsletter-email::-moz-placeholder				{ color: #ff0000 !important; }
+				.newsletter-email:-ms-input-placeholder			{ color: #ff0000 !important; }
+
+				.newsletter-email:hover
+				{
+						border-color: #ff0000;
+				}
+				.newsletter-email:focus
+				{
+						color: #ffde00;
+						background-color: transparent;
+						border-color: #494736;
+				}
+
+		input.newsletter-submit
+		{
+				height: 100%;
+				font-weight: 700;
+				color: #05004e;
+				background-color: #ffde00;
+				display: none;
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 0 1.25rem; /* 20 */
+
+				-webkit-animation: appear-from-inside .25s ease, fade-in .25s linear;
+				animation: appear-from-inside .25s ease, fade-in .25s linear;
+
+				-webkit-transform-origin: right center;
+				-ms-transform-origin: right center;
+				transform-origin: right center;
+		}
+				.newsletter-submit:hover,
+				.newsletter-submit:focus
+				{
+						color: #fff;
+				}
+				.newsletter--active .newsletter-submit
+				{
+						display: block;
+				}
+
+@-webkit-keyframes appear-from-inside
+{
+		from	{ -webkit-transform: scale( 0 ); }
+		75%		{ -webkit-transform: scale( 1.1 ); }
+		to		{ -webkit-transform: scale( 1 ); }
+}
+@keyframes appear-from-inside
+{
+		from	{ transform: scale( 0 ); }
+		75%		{ transform: scale( 1.1 ); }
+		to		{ transform: scale( 1 ); }
+}
+
+@media screen and ( max-width: 30em ) /* 480 */
+{
+		.newsletter
+		{
+				position: relative;
+				top: auto;
+				left: auto;
+				margin: 0;
+		}
+}
+
+@media (min-width:576px) {
+
+		
+	.r-image {
+		width: 200px;
+	}
+	span.landing-banner-font {
+	  font-size: 44px;
+	}
+	span.landing-banner-jumbo {
+		font-size: 50px;
+	}
+
+	.section-wrap {
+		height: 50%;
+	}
+	
+	}
+	
+
+  @media (min-width:768px) {
+	span.landing-banner-font {
+	  font-size: 44px;
+	}
+	span.landing-banner-jumbo {
+		font-size: 45px;
+	}
+
+	
+	.r-image {
+		width: 250px;
+	}
+	.section-wrap {
+	
+		
+		height: auto;
+	}
+	
+
+  }
+  @media (min-width:992px) {
+	span.landing-banner-font {
+	  font-size: 54px;
+	}
+	span.landing-banner-jumbo {
+		font-size: 40px;
+	}
+	.r-image {
+		width: 300px;
+	}
+
+
+	}
+	
+	.link-unstyled, .link-unstyled:visited, .link-unstyled:hover, .link-unstyled:active, .link-unstyled:focus, .link-unstyled:active:hover {
+		font-style: inherit;
+		color: inherit;
+		background-color: transparent;
+		font-size: inherit;
+		text-decoration: none;
+		font-variant: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		font-family: inherit;
+		border-radius: inherit;
+		border: inherit;
+		outline: inherit;
+		box-shadow: inherit;
+		padding: inherit;
+		vertical-align: inherit;
+	  }
+	  
