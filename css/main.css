@@ -51,3 +51,7 @@
 #sid__details img {
     width: 100%;
 }
+#gallery img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
