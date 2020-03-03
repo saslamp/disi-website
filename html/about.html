@@ -12,13 +12,23 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <!-- <link rel="stylesheet" href="../css/style.css" /> -->
     <link href="../css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css" />
+
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Nunito" rel="stylesheet">
 
+        <!-- data-aos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>About DISI</title>
+
+    <style>
+        body {
+            padding-top: 100px;
+        }
+    </style>
 </head>
 
 <body class="">
@@ -26,8 +36,39 @@
     <div class="cover-container d-flex p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
             <div class="inner">
-                <!-- <h3 class="masthead-brand">Cover</h3> -->
-                <nav class="nav nav-masthead justify-content-center">
+                <nav class="navbar navbar-expand-lg fixed-top py-3 bg-info">
+                    <a class="navbar-brand" href="./index.html">DISI</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./team.html">The Team</a>
+                            </li>                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="./newsletter.html">Newsletter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./sid.html">SID</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./webrangers.html" tabindex="-1">Web Rangers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+        
+                    </div>
+                </nav>
+
+                <!-- <nav class="nav nav-masthead justify-content-center">
                     <div class="dropdown">
                         <a class="nav-link" href="#">Home</a>
                     </div>
@@ -76,7 +117,7 @@
                             <a class="dropdown-item" href="#">Hotline</a>
                         </div>
                     </div>
-                </nav>
+                </nav> -->
             </div>
         </header>
 
@@ -94,7 +135,7 @@
                 <div class="col-12 col-md-6  align-self-center">
                     <div class="row">
                         <div class="col-12" data-scroll="toggle(.fromLeftIn, .fromLeftOut) once">
-                            <span class="landing-banner-font">About</span>
+                            <span class="landing-banner-font" data-aos="zoom-out" data-aos-duration="3000">About</span>
                         </div>
                         <div class="col-12 col-md-12 py-5">
                             <div class="footer-menu py-3 px-3">
@@ -102,7 +143,7 @@
                                     <div class="col-12 col-md-12">
                                         <div class="col-12 my-3">
                                             <div class="menu-item about">
-                                                <a href="#" class="link-unstyled">
+                                                <a href="#ourStory" class="link-unstyled">
                                                     Our Story
                                                 </a>
                                             </div>
@@ -116,7 +157,7 @@
                                         </div>
                                         <div class="col-12 my-3">
                                             <div class="menu-item  about">
-                                                <a href="#" class="link-unstyled">
+                                                <a href="#ourGoal" class="link-unstyled">
                                                     Our Goal
                                                 </a>
                                             </div>
@@ -130,7 +171,7 @@
                                         </div>
                                         <div class="col-12 my-3">
                                             <div class="menu-item about">
-                                                <a href="#" class="link-unstyled">
+                                                <a href="#aimsAndObjectives" class="link-unstyled">
                                                     Aims / Objectives
                                                 </a>
                                             </div>
@@ -170,8 +211,9 @@
         </div>
     </div>
 
-    <div class="container px-5 py-5">
-        <span class="landing-banner-font">Our Story</span>
+    <div class="container px-5 py-5" id="ourStory">
+        <br/><br/>
+        <span class="landing-banner-font" data-aos="fade-up-right" data-aos-duration="1500">Our Story</span>
 
         <hr class="my-4">
 
@@ -188,8 +230,9 @@
     <div class="parallax2">
 
     </div>
-    <div class="container px-5 py-5">
-        <span class="landing-banner-font">Our Goal</span>
+    <div class="container px-5 py-5" id="ourGoal">
+        <br/><br/>
+        <span class="landing-banner-font" data-aos="zoom-in-down" data-aos-duration="1500">Our Goal</span>
 
         <hr class="my-4">
 
@@ -211,8 +254,9 @@
         </p>
     </div>
     <div class="parallax3"></div>
-    <div class="container px-5 py-5">
-        <span class="landing-banner-font">Our Aims/ Objectives</span>
+    <div class="container px-5 py-5" id="aimsAndObjectives">
+        <br/><br/>
+        <span class="landing-banner-font" data-aos="fade-down" data-aos-duration="1500">Our Aims/ Objectives</span>
 
         <hr class="my-4">
 
@@ -247,7 +291,7 @@
 
 
 
-    <footer class="footer footer-style">
+    <footer class="footer bg-info">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-4 py-1">
@@ -258,9 +302,8 @@
                 <div class="col-12 col-md-4 py-5">
                     <div class="row">
                         <div class="col-12 py-5">
-
                             <form class="newsletter" autocomplete="off" novalidate>
-                                <input type="email" value="" placeholder="Enter your email address" tabindex="1" class="newsletter-email" />
+                                <input type="email" value="" placeholder="Enter your email address" tabindex="1" class="form-control" />
                                 <input type="submit" value="OK" tabindex="2" class="newsletter-submit" />
                             </form>
                         </div>
@@ -381,8 +424,9 @@
             </div>
         </div>
     </footer>
+
     <div class="under-footer" style="text-align: center">
-        © 2016 Safer Internet Day. All Rights Reserved
+        © 2020 Safer Internet Day. All Rights Reserved
     </div>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
     <sript src="../js/index.js" />
@@ -393,6 +437,11 @@
         crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+            <!-- data-aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script>
 
         ; (function (window, document, undefined) {
