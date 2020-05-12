@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet”>
+
+    <link rel=" stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/hover-effect.css" />
+    <link rel="stylesheet" type="text/css" href="../css/carousel.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans|Josefin+Sans&display=swap" rel="stylesheet">
+    <!-- data-aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Mini Course</title>
+
+    <style>
+        body::before {
+            display: block;
+            content: '';
+            min-height: 50px;
+        }
+
+        body {
+            background: #fafafa;
+        }
+
+        .menu li.list-group-item.active--menu {
+            background: #fafafa;
+            color: #24A2B8;
+        }
+
+        .menu li.list-group-item.active--menu>button {
+            background: #fafafa;
+            color: #24A2B8;
+        }
+
+        .right {
+            background-color: #fff;
+            height: 100vh;
+            overflow-y: scroll;
+        }
+
+        .section__primary,
+        .section__secondary,
+        .section__teachers,
+        .section__parents {
+            display: none;
+        }
+
+        .disc {
+            list-style-type: disc;
+        }
+
+        img {
+            width: 250px;
+        }
+
+        h6 {
+            font-weight: bold;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .list-group-item {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top py-3 bg-info">
+            <a class="navbar-brand" href="./index.html">DISI</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./minicourse.html">Mini Course</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-5">
+
+        <section class="container">
+            <div class="row">
+
+                <!-- right menu  -->
+                <div class="col-md-3 border border-light">
+
+                    <ul class="list-group list-group-flush menu pt-5">
+                        <li class="list-group-item text-uppercase text-center bg-info text-light">
+                            <h6>menu</h6>
+                        </li>
+                        <li class="list-group-item active--menu">
+                            <button class="btn" id="menu--intro">Introduction</button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" id="menu--pry">Primary School Pupils</button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" id="menu--sec">Secondary School Students</button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn">Safety tips for parents</button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn">Safety tips for teachers</button>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-9 right">
+
+                    <section class="container">
+
+                        <section class="container section__intro py-5" id="intro">
+                            <h6>Introduction</h6>
+                            <h5>
+                                MINI-COURSE ON ONLINE SAFETY FOR KIDS AND TEENS
+                            </h5>
+                            <p class="text-justify">
+                                The internet opens up a wealth of opportunities for children and has become a big part
+                                of how they develop, discover, and see the wider world. The use of the internet in a
+                                safe and responsible way is pertinent to everyone and most especially kids and teens as
+                                it can either have a positive or negative effect on your child’s brain.
+                            </p>
+
+                            <p class="py-3">General benefits of the use of the internet among kids and teens…</p>
+                            <ul>
+                                <li>Access to more information, knowledge, and learning (for instance educational
+                                    resources)</li>
+                                <li>Enhances communication, connectivity, and sharing</li>
+                                <li>Online games can enhance teamwork and creativity</li>
+                                <li>Easy access to life-changing opportunities</li>
+                                <li>Recent research has shown that households with computers perform better academically
+                                </li>
+                                <li>Improve both visual intelligence and hand-eye coordination</li>
+                            </ul>
+
+                            <p class="py-3">The overuse of the internet also has its cons…</p>
+                            <ul class="disc">
+                                <li>Addiction, time-waster, and causes distractions</li>
+                                <li>Affects sleep cycles and could lead to a lack of concentration </li>
+                                <li>Access to inappropriate contents</li>
+                                <li>Identity theft and Viruses</li>
+                                <li>Affects focus and patience</li>
+                                <li>Could lead to social isolation</li>
+                            </ul>
+
+
+                        </section>
+
+                        <section class="container section__primary mt-5" id="primary">
+                            <h5>Online Safety Topics for pupils in Primary School</h5>
+                            <hr width="500" align="left" />
+                            <p>Topics:</p>
+                            <ol>
+                                <li>Personal Information</li>
+                                <li>Strong passwords</li>
+                                <li>Online Gaming</li>
+                                <li>Digital Safety Pledge</li>
+                                <li>Cyber threats, risks and safety measures to take</li>
+                                <dd>a. Cyberbullying</dd>
+                                <dd>b. Cyber pedophiles</dd>
+                                <dd>c. Sexting</dd>
+                                <dd>d. Hackers</dd>
+                            </ol>
+
+                            <p class="text-justify">
+                                Online safety simply means staying safe while using the internet. It is also the act of
+                                maximizing the user’s personal safety and security risks on private information and
+                                self-protection from computer crimes.
+                            </p>
+
+                            <!-- personal info  -->
+                            <h5 class="my-5">Personal Information</h5>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="../illustration/post_online.svg" />
+                                </div>
+
+                                <div class="col">
+                                    <p>
+                                        Personal information is any piece of information that can be used to identify,
+                                        locate,
+                                        or contact a person.
+                                    </p>
+                                    <p>Examples of personal information include an individual's:</p>
+
+                                    <ol class="disc">
+                                        <li>Full Name</li>
+                                        <li>Home and school address</li>
+                                        <li>Telephone number</li>
+                                        <li>Passport Number</li>
+                                        <li>Age, Date of birth</li>
+                                        <li>Gender</li>
+                                        <li>Email address</li>
+                                        <li>Driver’s license number</li>
+                                        <li>Social security number</li>
+                                        <li>Account number, credit or debit card number</li>
+                                        <li>Personal characteristics, including photographic image, fingerprints,
+                                            handwriting,
+                                            or other unique biometric data</li>
+                                    </ol>
+
+                                </div>
+                            </div>
+
+                            <!-- strong password  -->
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="my-5">Stong Password</h5>
+                                    <p class="text-justify">
+                                        A password is a secret word or phrase that must be used to gain admission to a
+                                        place. It is also a string of characters that allows access to a computer system
+                                        or service.
+                                    </p>
+                                    <p class="text-justify">A strong password is a password that is NOT your name, your
+                                        nickname, your friend’s name, your family member’s name, your pet name, your
+                                        favorite quote, your date of birth, or any common name.</p>
+                                    <p class="text-justify">A strong password prevents unauthorized access to your
+                                        electronic accounts and devices and provides essential protection from financial
+                                        fraud and identity theft.</p>
+
+                                    <p class="font-weight-bolder mt-5">
+                                        Characteristics of strong passwords
+                                    </p>
+                                    <ul class="disc">
+                                        <li>Must contain At least 8 characters, however the more the characters the
+                                            stronger
+                                            the password.</li>
+                                        <li>Must include a mixture of both uppercase and lowercase letters.</li>
+                                        <li>Must include a mixture of letters and numbers.</li>
+                                        <li>Must include at least one special character, e.g [. , ! @ # ? ], ensure you
+                                            do
+                                            not use < or> in your password, as both can cause problems in Web browsers.
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col pt-5">
+                                    <img class="mt-5" src="../illustration/password.png" alt="" />
+
+                                    <p class="font-weight-bolder mt-5">
+                                        How to generate strong passwords
+                                    </p>
+                                    <table class="table table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">S/N</th>
+                                                <th scope="col">Okay Password</th>
+                                                <th scope="col">Better Password</th>
+                                                <th scope="col">Strong Password</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>ilovemydof</td>
+                                                <td>ILoveMyDog</td>
+                                                <td>!Lov3MyDog</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>usher</td>
+                                                <td>!usher</td>
+                                                <td>!ush3r</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>allblacks</td>
+                                                <td>allBlacks</td>
+                                                <td>allBlack$</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+
+                            <!-- online gaming  -->
+                            <div class="row mt-5">
+                                <div class="col">
+                                    <img src="../illustration/game.svg" alt="">
+
+                                    <p class="font-weight-bolder mt-3">
+                                        Here are things you should do to stay safe when gaming online
+                                    </p>
+                                    <ul class="dics">
+                                        <li>Never give away your personal information</li>
+                                        <li>Never expose your identity</li>
+                                        <li>Use strong password</li>
+                                        <li>Install antivirus and keep it up-to-date</li>
+                                        <li>Respect other game players</li>
+                                        <li>Report and block any abuser or bully</li>
+                                        <li>Never meet up with any player</li>
+                                        <li>Install parental controls</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col">
+                                    <h5>Online Gaming</h5>
+                                    <p class="text-justified">
+                                        An online game is a video game that is either partially or primarily played
+                                        through the Internet or any other computer network available. Online games
+                                        provide a basis for friends, family, and strangers to interact with each other.
+                                        With the euphoric feelings received from online gaming, it’s dangers cannot be
+                                        overlooked. Online gaming poses dangers such as privacy problems, online
+                                        predators, hidden fees, malware, unwarranted sharing of personal information,
+                                        cyberbullying, webcam hacks, etc.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <!-- digital citzenship  -->
+                            <div class="row mt-5">
+                                <div class="col">
+                                    <h5>Digital Citizenship</h5>
+
+                                    <p class="text-justify">
+                                        Digital citizenship refers to the responsible use of technology by anyone who
+                                        uses computers, the Internet, and digital devices to engage with society on any
+                                        level.
+                                    </p>
+                                </div>
+
+                                <div class="col">
+                                    <img src="../illustration/game.svg" alt="">
+                                </div>
+                            </div>
+
+                            <p class="font-weight-bolder mt-3">
+                                Digital Pledge
+                            </p>
+                            <ol>
+                                <li>I will never post or send my personal information to anyone</li>
+                                <li>I will never share my pictures or that of others to anyone without permission
+                                    from
+                                    my parents</li>
+                                <li>I will not open emails or click on links sent by people I don’t know.</li>
+                                <li>I will tell my parents if I see any information on the internet that makes me
+                                    feel
+                                    uncomfortable</li>
+                                <li>I will not share my password with anyone except my parents</li>
+                                <li>I will never download or install Apps without permission from my parents</li>
+                                <li>I will never send mean or hurtful things to others</li>
+                                <li>I will follow all safety rules set by my parents and teachers</li>
+                                <li>I promise to be safe at all times while on the internet</li>
+                                <li>I promise to be a good digital citizen at all times</li>
+                            </ol>
+
+
+                            <!-- cyber threats  -->
+                            <div class="mt-5">
+                                <h5 class="my-3">Cyber threats, risks and safety measures to take</h5>
+
+                                <div>
+                                    <h6>Cyber bullying</h6>
+                                    <p class="text-justify">
+                                        Cyberbullying, online bullying, or cyberharassment is the use of electronic
+                                        communication to bully a person, typically by sending messages of an
+                                        intimidating or
+                                        threatening nature. This kind of activity is most common among teenagers.
+                                    </p>
+
+                                    <p class="font-weight-bolder">
+                                        Way to deal with a cyberbully
+                                    </p>
+
+                                    <ol>
+                                        <li>Ignore the person and don’t respond immediately</li>
+                                        <li>Don’t retaliate nor reply with a nasty response</li>
+                                        <li>Take a screenshot and Inform your parents</li>
+                                        <li>Report and block the person</li>
+                                    </ol>
+                                </div>
+
+                                <div>
+                                    <h6>Cyberpedophiles</h6>
+                                    <p class="text-justify">
+                                        Cyber pedophiles or online predators are individuals who commit child sexual
+                                        abuse that begins or takes place on the Internet. Online predators use chat
+                                        rooms, instant messaging, Internet forums, social networking sites, cell phones,
+                                        and even video games to lure and groom their victims.
+                                    </p>
+
+                                    <p class="font-weight-bolder">
+                                        How to stay safe from Cyberpedophile
+                                    </p>
+
+                                    <ol>
+                                        <li>Ensure not to use photos and names that look/sound suggestive</li>
+                                        <li>Avoid anyone who seeks to get too personal</li>
+                                        <li>Remember people aren’t always who are say they are on the online</li>
+                                        <li>Never ever arrange to meet in person anyone you met online</li>
+                                        <li>Be wary of individuals that always flatter you online</li>
+                                        <li>Avoid individuals that always seek to get your personal information</li>
+                                        <li>Tell your parents or any trusted adult when someone sends you anything that
+                                            makes you feel uncomfortable</li>
+                                    </ol>
+                                </div>
+
+                                <div>
+                                    <h6>Sexting</h6>
+                                    <p class="text-justify">
+                                        Sexting is sending, receiving, or forwarding sexually explicit messages,
+                                        photographs, or images through the use of any digital device to oneself or to
+                                        others.
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="font-weight-bold">
+                                                Risk of Sexting
+                                            </p>
+                                            <ol>
+                                                <li>It can put you at risk of blackmail</li>
+                                                <li>It can cause damage to your reputation</li>
+                                                <li>It can lead to sexual bullying</li>
+                                                <li>It can lead to child pornography</li>
+                                                <li>It can open doors for Cyberpedophiles</li>
+                                                <li>The message never goes away</li>
+                                            </ol>
+                                        </div>
+                                        <div class="col">
+                                            <p class="font-weight-bold">
+                                                How to deal with sexting
+                                            </p>
+                                            <ol>
+                                                <li>Do not send, forward, download, screenshot, save any sext</li>
+                                                <li>Delete the photo or message immediately</li>
+                                                <li>Inform your parents or any trusted adult</li>
+                                                <li>If the sext is from a known person, report the person to your
+                                                    parents/trusted adult immediately</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div>
+                                    <h6>Hackers</h6>
+                                    <p class="text-justify">
+                                        A hacker is anyone with technical skills and who uses his or her abilities to
+                                        gain unauthorized access to systems or networks in order to commit crimes.
+                                    </p>
+                                    <p class="font-weight-bolder">
+                                        Ways to avoid hackers
+                                    </p>
+                                    <ol>
+                                        <li>Turn off or logout when you’re done</li>
+                                        <li>Choose a strong password</li>
+                                        <li>Check your social media security settings</li>
+                                        <li>Get two-step verification for your email and other Apps</li>
+                                        <li>Use a trusted device</li>
+                                        <li>Never share your password with anyone</li>
+                                    </ol>
+                                </div>
+
+                                <div>
+                                    <h6>Be Internet Awesome</h6>
+
+                                    <p class="text-justify">
+                                        <em>Be Internet Awesome</em> teaches you the fundamentals of digital citizenship
+                                        and
+                                        safety so you can explore the online world with confidence. Click <a
+                                            href="https://beinternetawesome.withgoogle.com/en_ng/">Here</a> to learn
+                                        more about how to Be Internet Awesome.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h6>Think</h6>
+                                    <p>Before you click that send button to post/share anything online
+                                        <strong>THINK!</strong></p>
+                                </div>
+
+                            </div>
+
+                            <div class="text-center my-5 font-weight-bold">
+                                <p>Online Safety begins with YOU!
+                                </p>
+                                <p>Remember the Internet never forgets nor forgives!</p>
+                            </div>
+
+                        </section>
+
+                        <!-- Section 2: Online safety content for Primary school  -->
+                        <section class="container section__secondary mt-5" id="secondary">
+                            <h5>Online Safety Topics for Secondary School Students</h5>
+                            <hr width="500" align="left" />
+                            <p>Topics:</p>
+
+                            <ol>
+                                <li>Internet Services and uses</li>
+                                <li>Securing Personal Information</li>
+                                <li>Strong password</li>
+                                <li>Social media safety tips</li>
+                                <li>Safety and security on digital devices</li>
+                                <li>Cyber threats, risks and safety measures to take</li>
+                                <dd>a. Cyberbullying</dd>
+                                <dd>b. Cyber pedophiles</dd>
+                                <dd>c. Sexting</dd>
+                                <dd>d. Hackers</dd>
+                                <dd>e. Phishers</dd>
+                                <dd>f. Fake news</dd>
+                                <dd>Hate speech</dd>
+                                <li>Internet privacy</li>
+                                <li>Digital safety pledge</li>
+                            </ol>
+
+                            <div>
+                                <h6>Be Internet Awesome</h6>
+
+                                <p class="text-justify">
+                                    Be Internet Awesome teaches you the fundamentals of digital citizenship and
+                                    safety so you can explore the online world with confidence. Click <a
+                                        href="https://beinternetawesome.withgoogle.com/en_ng/">Here</a> to learn
+                                    more about how to Be Internet Awesome.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h6>Think</h6>
+                                <p>Before you click that send button to post/share anything online
+                                    <strong>THINK!</strong></p>
+                            </div>
+
+                            <div>
+                                <h6>How Internet SMART AM I</h6>
+                                <p>
+                                    Please use <a
+                                        href="https://docs.google.com/presentation/u/1/d/1RDeCkFQLZveaKshjtY2F1WkQ8zJGJ61N0UaKQkcuQ0Q/edit#slide=id.g7df0a0ba00_0_0">this
+                                        slide</a> for the above.
+                                    Apply and Become a Webranger!
+                                </p>
+                            </div>
+
+                            <div class="text-center my-5 font-weight-bold">
+                                <p>Online Safety begins with YOU!
+                                </p>
+                                <p>Remember the Internet never forgets nor forgives!</p>
+                            </div>
+
+                        </section>
+
+                        <!-- <section class="container section__teachers" id="teachers">
+                            <h5>Teachers</h5>
+                        </section>
+
+                        <section class="container section__parents" id="parents">
+                            <h5>Parents</h5>
+                        </section> -->
+
+                        <!-- bottom buttons  -->
+                        <section class="d-flex justify-content-center" id="buttons">
+                            <ul class="list-group list-group-horizontal">
+                                <li class="list-group-item">
+                                    <button id="pryBtn" class="btn">For Primary School Pupils</button>
+                                </li>
+                                <li class="list-group-item">
+                                    <button id="secBtn" class="btn">For Secondary School Pupils</button>
+                                </li>
+                            </ul>
+                        </section>
+
+                    </section>
+
+                    <div class="h-25"></div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+
+    <!-- data-aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="../js/index.js"></script>
+    <script src="../js/main.js"></script>
+
+    <script>
+        let introSection = $(".section__intro");
+        let prySection = $(".section__primary");
+        let secSection = $(".section__secondary");
+        let teachSection = $(".section__teachers");
+        let parentSection = $(".section__parents");
+
+        function hideSection(a, b, c, d) {
+            $("#intro").css("display", "none");
+
+            a.css("display", "block");
+            b.css("display", "none");
+            c.css("display", "none");
+            d.css("display", "none");
+
+            $(".right").animate({ scrollTop: 0 }, "slow");
+        }
+
+        let pryBtn = $("#pryBtn");
+        let secBtn = $("#secBtn");
+
+        function btnColor(x, y) {
+            x.css({ "backgroundColor": "#d8e9ec" }, { "color": "#fff" })
+            y.css({ "backgroundColor": "initial" }, { "color": "initial" })
+        }
+
+        function removeAddClass(x) {
+            x.parent().addClass("active--menu");
+            x.parent().siblings().removeClass("active--menu");
+        }
+
+        $("button").click(function () {
+            let id = $(this).attr('id');
+
+            switch (id) {
+                case 'pryBtn':
+                    hideSection(prySection, secSection, teachSection, parentSection);
+                    btnColor(pryBtn, secBtn);
+                    break;
+                case 'secBtn':
+                    hideSection(secSection, prySection, teachSection, parentSection);
+                    btnColor(secBtn, pryBtn);
+                    break;
+                case 'teachBtn':
+                    hideSection(teachSection, prySection, secSection, parentSection);
+                    break;
+                case 'parentBtn':
+                    hideSection(parentSection, prySection, secSection, teachSection);
+                    break;
+                case 'menu--pry':
+                    removeAddClass($(this));
+                    pryBtn.trigger("click");
+                    break;
+                case 'menu--sec':
+                    removeAddClass($(this));
+                    secBtn.trigger("click");
+                    break;
+                case 'menu--intro':
+                    removeAddClass($(this));
+                    hideSection(introSection, parentSection, prySection);
+                    break;
+
+                default:
+                    break;
+            }
+        });
+
+    </script>
+</body>
+
+</html>
